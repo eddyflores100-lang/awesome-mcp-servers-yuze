@@ -542,6 +542,7 @@ Security-focused servers and scanning tools.
 - Vulert — https://vulert.com
 - Thales / CDSP servers — various MCP integrations for secrets & keys
 - Agent OS — https://github.com/imran-siddique/agent-os — Kernel-level governance MCP server for AI agents — enforces deterministic policies (tool filtering, budget caps, rate limits, audit logging) instead of prompt-based guardrails. Part of microsoft/agent-lightning (14k★). Run via `npx agentos-mcp-server`.
+- MarketNow — https://github.com/alicelabs-llc/universal-trust-adapter — Free trust layer for AI agents on MCP: Agent Trust Card (ATC/1.0) credential verification, domain scam-checking (live RDAP + TLS inspection), tool-definition fingerprinting against the OWASP MCP Top-10, and a 68k+ MCP server registry search. Remote (Open, keyless): https://www.marketnow.site/api/mcp — npm: marketnow-mcp
 
 ---
 
